@@ -1,0 +1,43 @@
+
+Granby Games
+Logic Blox logic prop collection ver 1.4 / 2018
+Updated to ver 4, April/2018
+
+mhogan@remhouse.com
+250-924-1912
+Support enquiries : https://www.facebook.com/granbygames/
+
+Logic Blox prefabs included with the Granby Games prop logic engine can be used to create, debug and design simple to complex virtual electronic circuits and or game play controls. Logic "primitives" are placed in game and connected together to run other logic circuits, sounds, animations and gameObject control.
+The low latency Logic engine manages Logic Blox object behavior in order to simulate real hardware resulting in a true to life experience. 
+Build, learn and create with Logix Blox.
+
+
+Primitive logic gate series including:
+
+1. Prefabs for (Logic Blox basic version 4 and greater)
+	- And gate, Nand gate, Or gate, Nor gate. Not gate and Buffer.
+	- Switch, Lamp, UpDn.
+	- Vintage dial
+	- TTL digital display
+	- Vintage switches
+	
+
+2. Two script files are required to run the logic engine. These include UniLogicChip and UniLogicEffects. User changeable values are managed from the Unity inspector. There is no need to alter these script files.
+3. Includes original materials, mesh object files , images and audio clips. 
+
+Package includes logic gate props in the form of prefabs with the following gate classes:(based on pin configurations)
+1. gate - Has one input and one output.  Includes: Buffers, Inverters(not), Switches, Lamps
+2. primitive - Has two inputs and one output. Includes: And, Nand, Or, Nor
+3. axis - Has two inputs and two outputs. Inlcudes up/down switches
+
+Input pins are click sensitive. Clicking an input pin will change the gate value for that gate pin. Input pins can also be changed by output events from other gates (see below). When a gates logical true condition is met the gates output will occur and all connected gates will receive its output signal. Attaching the UniLogicEffects script to a gate object will allow activation of sounds, animations and other game objects.
+
+Instructions:
+1. Add gate prefabs to scene.
+2. Connect components and gates by adding other gates to Inspector object link fields:
+Output Link Obj[] - Object connecting to
+Output Link Pin[] - Objects pin
+
+Open LogicBloxPrimitivesUserManual.pdf for further details.
+
+Note: Standalone execuable requires the following tags (required for pin click events): 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16

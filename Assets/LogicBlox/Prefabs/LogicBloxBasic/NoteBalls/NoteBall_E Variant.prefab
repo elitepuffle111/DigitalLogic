@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2815374315751517366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2624448757950158583, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_Name
+      value: NoteBall_E Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2621168820983234703, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735691339009914041, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: outputOnAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: af3fe54280a355b4a9e9a68916810b18, type: 3}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: isMomentary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: momDuration
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOn.r
+      value: 0.9254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOn.g
+      value: 0.90582955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOn.b
+      value: 0.33725494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOff.r
+      value: 0.46226418
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOff.g
+      value: 0.45114368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: ledOff.b
+      value: 0.128649
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736340644348954311, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: isLockedState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610964028013061597, guid: d20794c9b60379e4692b12ac27f2da70,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c16be94604525f342847092f74ea8fcb, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d20794c9b60379e4692b12ac27f2da70, type: 3}
